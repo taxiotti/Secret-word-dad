@@ -1,0 +1,23 @@
+.start h1 { 
+    font-size: 3.5em; 
+}
+
+.start p { 
+    margin-bottom: 2em; 
+    color: #ecfa00; 
+}
+
+.difficulty-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #ccc;
+    background-color: red;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.3s ease;
+}
+  
+.difficulty-buttons button.selected {
+    background-color: green;
+    font-weight: bold;
+}
